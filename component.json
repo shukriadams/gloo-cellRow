@@ -1,0 +1,6 @@
+{
+  "name" : "gloo-cellRow",
+  "dependencies" : {
+    "gloo-base" : "0.0.1"
+  }
+}

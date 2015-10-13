@@ -1,0 +1,33 @@
+{
+  "_modelName" : "glooCellRow",
+
+  "items" : [
+    {
+      "text" : "I am a tile",
+      "backgroundColor" : "orange" ,
+      "image" : {
+        "_modelName" : "glooImage",
+        "src" : "http://placehold.it/15x15"
+      }
+    },
+
+    {
+      "text" : "I am a long tile I am a long tile I am a long tile I am a long tile I am a long tile I am a long tile I am a long tile ",
+      "backgroundColor" : "red",
+      "image" : {
+        "_modelName" : "glooImage",
+        "src" : "http://placehold.it/15x15"
+      }
+    },
+
+    {
+      "text" : "I am a long tile I am a long tile I am a long tile",
+      "backgroundColor" : "yellow",
+      "image" : {
+        "_modelName" : "glooImage",
+        "src" : "http://placehold.it/15x15"
+      }
+    }
+
+  ]
+}

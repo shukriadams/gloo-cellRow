@@ -1,0 +1,29 @@
+<div class="gloo-cellRow">
+    <div class="row">
+
+        <div class="gloo-cellRow-header">
+            {{#if title}}
+                <div class="gloo-cellRow-title">{{{title}}}</div>
+            {{/if}}
+
+            {{#if text}}
+                <div class="gloo-cellRow-text">{{{text}}}</div>
+            {{/if}}
+        </div>
+
+        {{#each items}}
+            <div class="gloo-cellRow-item small-12 medium-{{divide 12 ../items.length}} columns"
+                 style="
+                     {{#if this.backgroundColor}}background-color:{{this.backgroundColor}};{{/if}}
+                     {{#if this.textColor}}color:{{this.textColor}};{{/if}}">
+
+                {{#if image}}
+                    <img class="gloo-cellRow-itemImage" src={{image.src}} />
+                {{/if}}
+                <div class="gloo-cellRow-itemText">
+                    {{{this.text}}}
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
